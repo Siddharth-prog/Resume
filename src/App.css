@@ -1,0 +1,9 @@
+span{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    -ms-flex-align: start;
+    align-items:  baseline;
+    
+    justify-content: space-around;
+}

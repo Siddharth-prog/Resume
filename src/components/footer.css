@@ -1,0 +1,27 @@
+.footer-section {
+    display: flex;
+    align-items:flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    margin-left: 0%;
+    height: fit-content;
+    position: relative;
+    background: linear-gradient(135deg, #0f0f0f, #1a1a1a);
+    color: white;
+    text-align: left;
+
+  }
+  ul{
+    list-style-type: none;
+
+  }
+  a{
+    font-size: 1rem;
+    font-weight: bold;
+    margin: 1rem 0;
+    position: relative;
+    cursor: pointer;
+    color: #00ffff;
+    text-shadow: 0 0 10px #00ffff, 0 0 20px #00ffff;
+  }
+  

@@ -1,0 +1,81 @@
+/* General hero section styling */
+.hero-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    background: linear-gradient(135deg, #0f0f0f, #1a1a1a);
+    color: white;
+    text-align: center;
+    background-image: url('../assets/evimg.webp');
+    
+    
+  }
+  
+  /* Neon effect for profile photo */
+  .profile-photo img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 5px solid #00ffff;
+    box-shadow: 0 0 20px #00ffff, 0 0 40px #00ffff;
+    transition: transform 0.3s ease-in-out;
+    
+  }
+  
+  .profile-photo img:hover {
+    transform: scale(1.1);
+  }
+  
+  /* Name styling */
+  .name {
+    font-size: 3rem;
+    font-weight: bold;
+    margin: 1rem 0;
+    position: relative;
+    cursor: pointer;
+    color: #00ffff;
+    text-shadow: 0 0 10px #00ffff, 0 0 20px #00ffff;
+  }
+  
+  /* Popup styling */
+  .intro-popup .hero-section{
+    background-color: rgba(0, 0, 0, 0.8);
+    color: #fff;
+    padding: 1rem;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 255, 255, 0.6);
+    animation: fadeIn 0.3s ease-in-out;
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(-10px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  /* Resume link styling */
+  .resume-link {
+    margin-top: 1.5rem;
+    display: inline-block;
+    padding: 0.8rem 1.5rem;
+    background: #00ffff;
+    color: #0f0f0f;
+    font-weight: bold;
+    border-radius: 5px;
+    text-decoration: none;
+    box-shadow: 0 0 10px #00ffff, 0 0 20px #00ffff;
+    transition: background 0.3s ease-in-out, transform 0.3s ease-in-out;
+  }
+  
+  .resume-link:hover {
+    background: #fff;
+    transform: scale(1.1);
+  }
+  
